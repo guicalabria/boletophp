@@ -1,5 +1,5 @@
 <?php
-namespace BoletoWebService;
+namespace BoletoWebPHP;
 
 /**
  *  Class responsible for communication with Branco do Brasil WebServices
