@@ -1,5 +1,5 @@
 {
-    "name": "guicalabria/boletowebphp",
+    "name": "guicalabria/boletophp",
     "type": "library",
     "version": "0.1",
     "description": "API para comunicação com os webservices de bancos para geração de boleto bancário.",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-          "guicalabria\\boletowebphp\\": "src/"
+          "guicalabria\\boletophp\\": "src/"
         } 
     }
 }
