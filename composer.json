@@ -1,0 +1,24 @@
+{
+    "name": "guicalabria/boletowebservice",
+    "type": "library",
+    "description": "API para comunicação com os webservices de bancos para geração de boleto bancário.",
+    "keywords": ["boleto", "duplicata", "banco"],
+    "homepage": "https://github.com/guicalabria/BoletoWebService",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Guilherme Calabria Filho",
+            "email": "guiga86@mgmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">= 7.0"
+    }
+    "autoload": {
+        "psr-4": {
+          "guicalabria\\BBBoletoWebService\\": "src/"
+        } 
+    },
+    "minimum-stability": "stable"
+}
