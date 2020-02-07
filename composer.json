@@ -18,7 +18,7 @@
         "guicalabria/openboleto": "dev-master"
     },
    	"autoload": {
-   		"classmap": ["src/BoletoPHP.php"]
+   		"classmap": ["src/"]
    	},
     "extra": {
         "branch-alias": {
