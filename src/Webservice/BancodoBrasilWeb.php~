@@ -80,7 +80,6 @@ class BancodoBrasilWeb {
   	   if ( isset($params['arquivoteste']) && $params['arquivoteste']==1  ) $this->alterarParaAmbienteDeTestes();
   	   else $this->alterarParaAmbienteDeProducao();
   	   
-  	   
     		// Usar, por padrão, o caminho definido no atributo estático "_caminhoPastaCache_estatico"
     		if ( isset($params['tokendir']) && $params['tokendir']!='' ) $this->_caminhoPastaCache = $params['tokendir'];
     		else $this->_caminhoPastaCache = self::$_caminhoPastaCache_estatico;

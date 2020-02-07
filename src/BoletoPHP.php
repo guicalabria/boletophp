@@ -1,5 +1,5 @@
 <?php
-namespace BoletoWebPHP;
+namespace BoletoPHP;
 
 /**
  *  Class responsible for creating and communicating with web services for boletos in Brazil 

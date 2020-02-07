@@ -90,5 +90,6 @@ class BoletoPHP {
          $this->mensagem .= '<span class="formok">Erro ao carregar token</span>' $this->bancoWebService->mensagem;
          return false;
       }
+      return true;
    }
 }

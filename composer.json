@@ -18,6 +18,11 @@
         "guicalabria/openboleto": "dev-master"
     },
    	"autoload": {
-   		"classmap": ["guicalabria\\boletophp\\": "src/"]
-   	}
+   		"classmap": ["src/BoletoPHP.php"]
+   	},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev-master"
+        }
+    }
 }
