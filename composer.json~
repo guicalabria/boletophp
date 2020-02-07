@@ -17,7 +17,9 @@
         "php" : ">= 7.0",
         "guicalabria/openboleto": "dev-master"
     },
-   	"autoload": {
-   		"classmap": ["guicalabria\\boletophp\\": "src/"]
-   	}
+    "autoload": {
+        "psr-4": {
+          "guicalabria\\boletophp\\": "src/"
+        } 
+    }
 }
