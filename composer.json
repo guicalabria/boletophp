@@ -16,7 +16,7 @@
     "require": {
         "php" : ">= 7.0",
         "guicalabria/openboleto": "dev-master",
-        "guicalabria/WSBoletoSantander": "dev-master"
+        "guicalabria/ws-boleto-santander": "dev-master"
     },
    	"autoload": {
    		"classmap": ["src/"]
